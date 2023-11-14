@@ -5,7 +5,7 @@ const campoB = document.getElementById('camp-b');
 formEvalido = false;
 
 function validaCampo(num){
-    if (num = campoA.value < campoB.value){
+    if (num = parseFloat(campoA.value) < parseFloat(campoB.value)){
         return true;
     } else {
         return false;
